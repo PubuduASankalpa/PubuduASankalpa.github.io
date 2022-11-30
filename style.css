@@ -173,7 +173,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: rgb(216, 138, 21);
+    background: rgb(255, 154, 1);
     transform: translateY(-10px);
 }
 /*portfolio*/
