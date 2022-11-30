@@ -221,16 +221,16 @@
         msg.innerHTML="Sending...";
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {msg.innerHTML="Message Sent Successfully"
+        .then(response => {msg.innerHTML="Message Sent Successfully."
         setTimeout(function(){
             msg.innerHTML=""
-        },5000)
+        },4000)
         form.reset()
     })
     .catch(error => {msg.innerHTML="Something went wrong! Check your internet connection"
         setTimeout(function(){
             msg.innerHTML=""
-        },5000)
+        },4000)
         form.reset()
     })
     }
